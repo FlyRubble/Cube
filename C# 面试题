@@ -1,3 +1,5 @@
+<html>
+<pre>
 第一部分
 
 1. 请简述值类型与引用类型的区别 
@@ -512,3 +514,6 @@ https://www.baidu.com/s?wd= 怎么判断两个平面是否相交&rsv_spt=1&issp=
 8, <愤怒的小鸟>给予初速度以后,怎么让小鸟受到重力和空气阻力的影响而绘制抛物线轨迹,说出具体的计算方法.
 
   Vector3 v 代表初速度 v' 代表现在的速度，假设小鸟是沿的 z 轴也就是transform.forward 方向运动的质量为 1 ，那么 v‘=v-new Vector3(0,g*t,f*t) ，transform.Translate(v') 做的就是抛物线运动（ g 为重力加速度不要用现实中的需要自己调试， f 为阻力也要自己调试设置， t 为时间）
+
+</pre>
+</html>
